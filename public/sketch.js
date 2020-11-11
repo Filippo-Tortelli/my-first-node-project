@@ -10,7 +10,7 @@ function newConnection() {
 }
 
 function drawOtherMouse(data) {
-  fill("yellow"); //manca associazione del colore. da vedere codice di Mauri 
+  fill(data.color); //manca associazione del colore. da vedere codice di Mauri 
   ellipse(data.x, data.y,10);
 }
 
